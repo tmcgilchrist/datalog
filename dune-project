@@ -1,4 +1,4 @@
-(lang dune 2.9)
+(lang dune 3.0)
 (name datalog)
 (version "0.6")
 (maintainers "simon.cruanes.2007@m4x.org")
@@ -8,7 +8,7 @@
 
 (generate_opam_files true)
 (formatting disabled)
-(using mdx 0.1)
+(using mdx 0.2)
 
 (package 
  (name datalog)

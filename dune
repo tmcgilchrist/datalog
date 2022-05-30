@@ -1,4 +1,5 @@
 (mdx
  (files README.md)
  (package datalog)
- (packages datalog))
+ (deps
+  (source_tree tests)))
