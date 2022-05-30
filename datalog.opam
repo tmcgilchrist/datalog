@@ -11,6 +11,7 @@ bug-reports: "https://github.com/c-cube/datalog/issues"
 depends: [
   "dune" {>= "2.9"}
   "ocaml" {>= "4.08.0"}
+  "mdx" {with-test}
   "odoc" {with-doc}
 ]
 build: [

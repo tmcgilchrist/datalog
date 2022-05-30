@@ -14,4 +14,6 @@
  (name datalog)
  (tags ("datalog" "relational" "query" "prolog"))
  (synopsis "An in-memory datalog implementation for OCaml")
- (depends (ocaml (>= 4.08.0))))
+ (depends 
+  (ocaml (>= 4.08.0))
+  (mdx :with-test)))
